@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply text-yellow-300 p-0 m-0;
+}
+
+header {
+    @apply bg-pink-800;
+}
+
+.titulos{
+    @apply tracking-wide text-center text-[1.2em] font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#ff0000] via-[#ff00ff] to-[#800080];
+}
+
+#bar svg.icosn{
+    @apply w-6 h-6 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500;
+}
